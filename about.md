@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Into:
+- Music Technology
+- Microtonality
+- Algorithmic Composition
+- Synthesis
+- Max/MSP
+- Python
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MmbbpEBGJbs?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
