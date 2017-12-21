@@ -252,10 +252,12 @@ nav {
   border-bottom: none;
 }
 
+
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $red;
+    //border-left: 2px solid $red;
+	  
     padding: 0.1em 1em;
     color: $red;
     font-size: 22px;
