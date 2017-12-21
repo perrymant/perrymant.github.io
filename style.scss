@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: #020e1d;
+  background: #020e1d;
   font: 18px/1.4 "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "DroidSansMono", Monaco, "Lucida Console", Terminal, monospace, Consolas, "Liberation Mono", "Courier New", monospace;
   color: #1aff1a;
 }
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: #13ecaa;
   }
 }
 
@@ -203,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #13ecaa;
   font-size: 16px;
 
   @include mobile {
