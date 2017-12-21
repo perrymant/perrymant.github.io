@@ -19,8 +19,8 @@ html {
 
 body {
 	background: $black;
-  font: 18px/1.4 $helvetica;
-  color: #e6fffa;
+  font: 18px/1.4 "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "DroidSansMono", Monaco, "Lucida Console", Terminal, monospace, Consolas, "Liberation Mono", "Courier New", monospace;
+  color: #1aff1a;
 }
 
 .container {
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #6600ff;
 }
 
 p {
