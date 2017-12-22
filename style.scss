@@ -279,6 +279,13 @@ nav {
   }
 }
 
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
 .wrapper-footer {
   position: relative;
   bottom: 0px;
@@ -302,7 +309,10 @@ footer {
   left: 0;//
   padding: 20px 0;
   text-align: center;
-
+  background-image:
+    linear-gradient(
+      #020e1d, #5426e0
+    );
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
