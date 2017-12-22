@@ -13,4 +13,4 @@ permalink: /about/
 - Python
 
 ### Hyperspace Mood
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MmbbpEBGJbs?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/MmbbpEBGJbs?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
