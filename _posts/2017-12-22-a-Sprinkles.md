@@ -17,7 +17,7 @@ canvas {
 	z-index: -1;
 }
 </style>
-Just Kiddin' Here
+
 <script>
 
 window.onload = function(){
