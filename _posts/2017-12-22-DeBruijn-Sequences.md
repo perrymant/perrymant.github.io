@@ -5,7 +5,7 @@ I decided to make use of triggering events via binary means, and after a little 
 De Bruijn sequence require just 2 parameters, k, which will describe the possible alphabet states (for binary this is simply 2), and then the parameter n will detemine all of the possible subsequences.
 The nice thing about the sequence is that once the binary string has been generated, you can splice a subsequnce of length n at any of the indicies to generate a new pattern, with the number of events occuring further along in the string.
 
-{% highlight %}
+{% highlight ruby %}
   de_bruijn(k, n)
       ## De Bruijn sequence for alphabet k
       ## and subsequences of length n.
