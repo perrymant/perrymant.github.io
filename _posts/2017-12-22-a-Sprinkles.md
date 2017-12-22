@@ -13,9 +13,10 @@ title: Sprinkles
 }
 canvas {
 	display: block;
+	z-index: -1;
 }
 </style>
-
+Just Kiddin'
 <script>
 
 window.onload = function(){
