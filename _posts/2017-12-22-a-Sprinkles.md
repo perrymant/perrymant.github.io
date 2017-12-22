@@ -12,7 +12,7 @@ title: Sprinkles
 
 }
 canvas {
-	display: block;
+
 	position: relative;
 	z-index: -1;
 }
