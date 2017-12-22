@@ -214,6 +214,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
+  color: #5a20da;
   font-family:  "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "DroidSansMono", Monaco, "Lucida Console", Terminal, monospace, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 18px;
 
@@ -277,7 +278,7 @@ nav {
 .wrapper-footer {
   position: fixed;
   bottom: 0px;
-  left: 0px;
+  margin: auto;
   margin-top: 50px;
   border-top: 1px solid #ff000054;
   background-color: #ff000057;
