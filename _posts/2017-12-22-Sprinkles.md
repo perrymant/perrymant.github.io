@@ -4,6 +4,8 @@ title: Sprinkles
 ---
 
 <canvas id="canvas"></canvas>
+<style>
+
 
 /*Simple reset*/
 * {margin: 0; padding: 0;}
@@ -12,6 +14,7 @@ title: Sprinkles
 canvas {
 	display: block;
 }
+</style>
 
 <script>
 
