@@ -206,7 +206,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: #5a20da;
+  color: $darkGray;
   font-size: 16px;
 
   @include mobile {
@@ -217,7 +217,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  color: #13ecaa;
+  color: #5a20da;
   font-family:  "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "DroidSansMono", Monaco, "Lucida Console", Terminal, monospace, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 18px;
 
@@ -237,7 +237,7 @@ html {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: #13ecaa;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
