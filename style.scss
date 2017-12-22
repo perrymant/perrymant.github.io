@@ -281,7 +281,11 @@ nav {
   margin: auto;
   margin-top: 50px;
   border-top: 1px solid #ff000054;
-  background-color: #ff000057;
+  background-image:
+    linear-gradient(
+      black, #f06d06
+    );
+  //background-color: #ff000057;
 }
 
 footer {
