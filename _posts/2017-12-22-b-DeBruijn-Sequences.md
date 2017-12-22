@@ -1,3 +1,8 @@
+---
+layout: post
+title: De Bruijn Sequences for Rhythm Generation
+---
+
 After trying Euclidian Sequences, I had a look at some different methods of generating rhythmical sequences. I wanted to find something elegant, with a minimum of parameters, that might also be intuitive for control. I decided to make use of triggering events via binary means, and after a little research found a nice idea in the "De Bruijn Sequences".
 
 De Bruijn sequence require just 2 parameters, k, which will describe the possible alphabet states (for binary this is simply 2), and then the parameter n will detemine all of the possible subsequences.
