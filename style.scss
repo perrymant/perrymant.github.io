@@ -13,9 +13,6 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
 
 body {
   	background: #020e1d;
@@ -229,15 +226,13 @@ nav {
     font-size: 16px;
   }
 html {
+  font-size: 100%;
   height: 100%;
+  min-height:100%;
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+
   a {
     margin-left: 20px;
     color: $darkGray;
@@ -293,7 +288,8 @@ body {
   }
 }
 
-
+.content { padding:20px;margin-bottom:50px; /** bottom margin here to make sure that footer does not cover the content area **/  }
+}
 
 .wrapper-footer {
   position: relative;
