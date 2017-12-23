@@ -2,7 +2,7 @@
 layout: post
 title: Sprinkles
 ---
-
+Here are some nice sprinklings!
 <canvas id="canvas" width="858"></canvas>
 <style>
 
