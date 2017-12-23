@@ -38,6 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 //$helveticaNeue;
   color: #13ecaa;
   font-weight: bold;
+  text-shadow: -5px -2px 11px #340db499;
+
 
   line-height: 1.7;
   //margin: 1em 0 15px;
@@ -121,7 +123,8 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #3a0e0ede;
+  text-shadow: 1px 1px 0px #4a29d6ab;
 }
 
 // Specify the color of the selection
@@ -210,6 +213,8 @@ img {
   margin: -5px 0 0 0;
   color: #00fc0b;
   font-size: 16px;
+  text-shadow: -1px -2px 1px #a387de99;
+
 
   @include mobile {
     margin: 3px 0;
@@ -243,6 +248,8 @@ html {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    text-shadow: -1px -1px 3px #ff000099;
+
 
     @include mobile {
       margin: 0 10px;
