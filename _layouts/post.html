@@ -8,11 +8,11 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-
+  <br>
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
+  <br>
   {% include disqus.html %}
   {% if page.comments %} 
   <div id="disqus_thread"></div>
