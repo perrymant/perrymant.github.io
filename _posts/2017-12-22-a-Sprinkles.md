@@ -3,7 +3,7 @@ layout: post
 title: Sprinkles
 ---
 
-<canvas id="canvas" width="858" height="776">Hello</canvas>
+<canvas id="canvas" width="858" height="776"></canvas>
 <style>
 
 
@@ -109,4 +109,3 @@ window.onload = function(){
 
 
 </script>
-ehloo
