@@ -23,4 +23,6 @@ The nice thing about the sequence is that once the binary string has been genera
  '00000100011001010011101011011111'
  {% endhighlight %}
 
-I then implemented this within MaxMSP and triggered MIDI notes in an Ensoniq EPS 16+ running a sample set of TR-606 sounds and recorded this on a casseete tape for thick tape saturation. When you set up a couple of these generators each at a different MIDI note value you can get some interesting results.
+I then implemented this within MaxMSP and triggered MIDI notes in an Ensoniq EPS 16+ running a sample set of TR-606 sounds and recorded this on a cassette tape for additional tape saturation. When you set up a couple of these generators each at a different MIDI note value you can get some interesting results.
+
+While a De Bruijn Sequencer is simple and elegant with a basic three parameter control (k, n, MIDI value), it turns out that it isn't so intiutive as an event generator as I had wished. However, I had come up with a few ideas on what to do next...
