@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Sprinkles
+excerpt_separator: <!--more-->
 ---
-Here are some nice sprinklings!
+Here are some nice sprinklings! <!--more-->
 <canvas id="canvas" width="858"></canvas>
 <style>
 
