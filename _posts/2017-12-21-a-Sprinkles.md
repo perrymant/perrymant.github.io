@@ -3,7 +3,7 @@ layout: post
 title: Sprinkles
 ---
 
-<canvas id="canvas" width="858" height="776"></canvas>
+<canvas id="canvas" width="858"></canvas>
 <style>
 
 
