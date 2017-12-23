@@ -6,7 +6,7 @@ title: De Bruijn Sequences for Rhythm Generation
 After trying Euclidian Sequences, I had a look at some different methods of generating rhythmical sequences. I wanted to find something elegant, with a minimum of parameters, that might also be intuitive for control. I decided to make use of triggering events via binary means, and after a little research found a nice idea in the "De Bruijn Sequences".
 
 De Bruijn sequence require just 2 parameters, k, which will describe the possible alphabet states (for binary this is simply 2), and then the parameter n will detemine all of the possible subsequences.
-The nice thing about the sequence is that once the binary string has been generated, you can splice a subsequnce of length n at any of the indicies to generate a new pattern, with the number of events occuring further along in the string.
+The nice thing about the sequence is that once the binary string has been generated, you can splice a subsequence of length n at any of the indicies to generate a new pattern, with the number of events occuring further along in the string.
 
 {% highlight python %}
   de_bruijn(k, n)
