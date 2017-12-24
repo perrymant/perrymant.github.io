@@ -13,14 +13,11 @@
 /* BASE RULES */
 /**************/
 
-
 body {
   	background: #020e1d;
   font: 18px/1.4 "Menlo", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", "DroidSansMono", Monaco, "Lucida Console", Terminal, monospace, Consolas, "Liberation Mono", "Courier New", monospace;
   color: #1aff1a;
   text-shadow: -2px -1px 3px #1600e2ab;
-
-
 }
 
 .abso {
@@ -200,7 +197,6 @@ img {
     margin: 0 auto;
   }
 
-
 .site-name {
   margin: 0;
   color: $darkGray;
@@ -216,7 +212,6 @@ img {
   color: #00fc0b;
   font-size: 16px;
   text-shadow: -1px -2px 1px #a387de99;
-
 
   @include mobile {
     margin: 3px 0;
@@ -235,13 +230,14 @@ nav {
     margin-top: 9px;
     display: block;
     font-size: 16px;
-  }
+    }
+	
 html {
   font-size: 100%;
   height: 100%;
   min-height:100%;
   box-sizing: border-box;
-}
+  }
 
 
   a {
@@ -256,8 +252,8 @@ html {
     @include mobile {
       margin: 0 10px;
       color: $blue;
-    }
-  }
+      }
+   }
 }
 
 //
@@ -268,6 +264,7 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -278,7 +275,6 @@ body {
   border-bottom: none;
 }
 
-
 .post {
   blockquote {
     margin: 1.8em .8em;
@@ -288,7 +284,6 @@ body {
     font-size: 22px;
     font-style: italic;
   }
-
 	
   .comments {
     margin-top: 10px;
@@ -300,18 +295,15 @@ body {
   }
 }
 
-.content { padding:20px;margin-bottom:50px; 
-}
+.content { 
+     padding:20px;margin-bottom:50px; 
+ }
 
 .wrapper-footer {
   margin-top: 50px;
   background-image:
-    linear-gradient(
-      #020e1d, #5426e0
-    );
-
-}
-
+  linear-gradient(#020e1d, #5426e0);
+  }
 
 footer {
   display:block;
@@ -321,10 +313,8 @@ footer {
   padding: 0px 0;
   text-align: center;
   background-image:
-    linear-gradient(
-      #020e1d, #5426e0
-    );
-}
+    linear-gradient(#020e1d, #5426e0);
+  }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
