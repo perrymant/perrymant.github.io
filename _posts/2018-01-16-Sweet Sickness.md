@@ -9,4 +9,4 @@ It's called "Sweet Sickness" (the book by Patricia Highsmith features in it). I'
 I wanted to include a sound snippet as well, because I've been meaning to add a few more sound excerpts to the blog.
 
   <audio controls>
-  <source src="../ss3b.mp3" type="audio/mpeg">
+  <source src="/Audio/SS3b.mp3" type="audio/mpeg">
