@@ -5,14 +5,14 @@ excerpt_separator: <!--more-->
 ---
 
 So I spent today helping out with plotting the output of the Scanse LiDAR sensor.<!--more-->
-
+{: .centerimage}
 ![Sensor](/images/Lidar.jpg)
 
 This LiDAR sensor can take readings up to 40 meters, and could be used in projects ranging from self-driving cars to home security systems.
 I helped out a team by taking the output of the sensor and feeding this into Python with the goal of creating real-time plots. 
 I thought it might be a good opportunity to make a quick 'n' dirty video:
 
-<iframe "900" height="800" src="https://www.youtube.com/embed/oAFNRyCmBFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/oAFNRyCmBFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The data comes from a C file, and is piped into the Python code below:
 
