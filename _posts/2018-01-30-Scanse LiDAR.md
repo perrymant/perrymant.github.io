@@ -12,7 +12,7 @@ This LiDAR sensor can take readings up to 40 meters, and could be used in projec
 I helped out a team by taking the output of the sensor and feeding this into Python with the goal of creating real-time plots. 
 I thought it might be a good opportunity to make a quick 'n' dirty video:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oAFNRyCmBFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe "900" height="800" src="https://www.youtube.com/embed/oAFNRyCmBFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The data comes from a C file, and is piped into the Python code below:
 
