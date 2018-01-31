@@ -5,9 +5,8 @@ excerpt_separator: <!--more-->
 ---
 
 So I spent today helping out with plotting the output of the Scanse LiDAR sensor.<!--more-->
-{: .centerimage}
-![Sensor](/images/Lidar.jpg)
-<img src="/images/Lidar.jpg" alt="Sensor" style="width: 400px; height=450px;"/>
+
+<img src="/images/Lidar.jpg" alt="Sensor" style="width: 450px; height=500px;" align="middle"/>
 
 This LiDAR sensor can take readings up to 40 meters, and could be used in projects ranging from self-driving cars to home security systems.
 I helped out a team by taking the output of the sensor and feeding this into Python with the goal of creating real-time plots. 
