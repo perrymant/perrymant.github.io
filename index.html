@@ -11,8 +11,10 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+{% comment %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+{% endcomment %}
+     
       <div class="date">
       <p style="text-align: right">
       Written on {{ post.date | date: "%B %e, %Y" }}
