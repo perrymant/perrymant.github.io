@@ -12,19 +12,14 @@ layout: default
         {{ post.excerpt }}
       </div>
 
-      <!--
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      -->
-     
-      <div class="date"> 
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> <div class="date"> Written on {{ post.date | date: "%B %e, %Y" }} </div>
       <!--
       <p style="text-align: right">
       line 26
       </p>
       -->
       <br>  
-      Written on {{ post.date | date: "%B %e, %Y" }}
-      </div>
     </article>
   {% endfor %}
 </div>
