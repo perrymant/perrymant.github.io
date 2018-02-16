@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 
 This is a piece of music that I was commissioned to write by cave photographer Andy Freem for the opening film for Hidden Earth 2015, the annual caving conference organised by the British Cave Research Association (BCRA).<!--more--> 
 
-<img src="/images/MS Cave.png" alt="MS Cave" style="width: 450px; height=500px;" align="middle"/>
+<img src="/images/MS Cave.png" alt="MS Cave" style="width: 800px; height=600px;" align="middle"/>
 
 The video, titled The Recipe for Good Caving, is here: 
 
