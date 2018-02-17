@@ -22,7 +22,7 @@ Image Credit: exoplanetarchive.ipac.caltech.edu
 <br>
 <br>
 Using the following code I converted the light curve data into a wave audio file:
-
+<br>
 {% highlight python %}
 from scipy.io.wavfile import write as wav
 import pandas
@@ -33,7 +33,6 @@ lc = lc.astype(str).astype(float)                                       # conver
 lcnp = lc.values                                                        # pandas.core.series.series to numpy.ndarray
 rescale = lcnp * 100                                                    # increase amplitude
 wav('Kepler-18.wav', 44100, rescale)                                    # create wave file
- 
  
 {% endhighlight %}
 <br>
