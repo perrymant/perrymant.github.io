@@ -35,10 +35,10 @@ wav('Kepler-18.wav', 44100, rescale)                                    # create
 Here is the resulting audio file:
 <audio controls>
   <source src="/Audio/Kepler-18.wav" type="audio/wav">
-  
+</audio>
 After aplying a noise gate, I was able to isolate the clicks by removing the low amplitude noise. It's a crude method of truncating the noise, but it allows us to hear the individual transits far more clearly: 
 <audio controls>
   <source src="/Audio/Kepler-18 NoiseGated.wav" type="audio/wav">
-  
+</audio> 
 Here's a video that explains Transit Photometry in more detail:
 <iframe width="800" height="600" src="https://www.youtube.com/embed/Bxl4DbCzQco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
