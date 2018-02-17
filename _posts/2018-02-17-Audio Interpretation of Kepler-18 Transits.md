@@ -14,10 +14,12 @@ It turns out that Kepler-18 has 3 planets orbiting the star:
 <br>
 Image Credit: Tim Jones/McDonald Obs./UT-Austin
 <br>
+<br>
 The light curve data is available at the [caltech.edu website](https://exoplanetarchive.ipac.caltech.edu) 
 <img src="/images/Kepler-18.png" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
 <br>
-Image Credit: https://exoplanetarchive.ipac.caltech.edu
+Image Credit: exoplanetarchive.ipac.caltech.edu
+<br>
 <br>
 Using the following code I converted the light curve data into a wave audio file:
 
@@ -31,7 +33,8 @@ lc = lc.astype(str).astype(float)                                       # conver
 lcnp = lc.values                                                        # pandas.core.series.series to numpy.ndarray
 rescale = lcnp * 100                                                    # increase amplitude
 wav('Kepler-18.wav', 44100, rescale)                                    # create wave file
-<br>
+ 
+ 
 {% endhighlight %}
 <br>
 Here is the resulting audio file:
