@@ -1,0 +1,33 @@
+---
+layout: post
+title: Audio Interpretation of Kepler-18 
+excerpt_separator: <!--more-->
+---
+
+In 2011, it was discovered that the star Kepler-18 has 3 exoplanets using the Photometric Transit method. I thought, why not try to make an audio file out of the data collected by the Kepler satellite on this light curve! <!--more-->
+
+When the planet passes over the star, the observed intensity light will dip:
+<img src="/images/Planetary_transit.png" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
+
+
+<img src="/images/kepler-18-graphic.jpg" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
+Image Credit: Tim Jones/McDonald Obs./UT-Austin
+
+<img src="/images/Kepler-18.png" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
+Image Credit: https://exoplanetarchive.ipac.caltech.edu
+
+Kepler-18.wav
+Kepler-18 NoiseGated.wav
+
+from scipy.io.wavfile import write as swavw
+import pandas
+
+tbl = pandas.read_table('plot.tbl', comment='#', delim_whitespace=True)
+lc = tbl[2:].iloc[:,2][:64431]
+lc = lc.astype(str).astype(float)
+lcnp = lc.values 
+rescale = lcnp * 100 
+swavw('testaudio', 44100, rescale)
+
+Here's a video that explains Transit Photometry in more detail:
+<iframe width="800" height="600" src="https://www.youtube.com/embed/Bxl4DbCzQco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
