@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Audio Interpretation of Kepler-18 
+title: Audio Interpretation of Kepler-18 Transits
 excerpt_separator: <!--more-->
 ---
 
