@@ -48,3 +48,4 @@ After aplying a noise gate, I was able to isolate the clicks by removing the low
 <br>
 Here's a video that explains Transit Photometry in more detail:
 <iframe width="800" height="600" src="https://www.youtube.com/embed/Bxl4DbCzQco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ 
