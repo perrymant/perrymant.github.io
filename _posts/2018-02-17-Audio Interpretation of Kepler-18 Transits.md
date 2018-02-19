@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 In 2011, it was discovered that the star Kepler-18 has 3 exoplanets using the Photometric Transit method. I thought, why not try to make an audio file out of the data collected by the Kepler satellite on this light curve! <!--more-->
 
 When the planet passes over the star, the observed intensity light will dip:
-<img src="/images/Planetary_transit.png" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
+<img src="/images/Planetary_transit2.png" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
 
 It turns out that Kepler-18 has 3 planets orbiting the star:
 <img src="/images/kepler-18-graphic.jpg" alt="kepler-18-graphic" style="width: 800px; height=600px;" align="middle"/>
