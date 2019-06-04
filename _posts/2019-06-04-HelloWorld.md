@@ -21,7 +21,7 @@ public class HelloWorld {
 ```
 
 We can enumerate and annotate each term to make referring to the components more obvious:
-![Annotated Code](images/blog-01-hello-world-deconstructed/helloworld.png)
+![Annotated Code](/images/blog-01-hello-world-deconstructed/helloworld.png)
 
 It's often noted that Java is overly verbose and is composed by a lot of `boilerplate` code, that is to say, template-like code that must be included for the desired code to run.
 In this example, the first two lines are boilerplate as they are not directly concerned with what we want to achieve - which is to simply display the phrase "Hello, World!" to the person operating the computer, which is what the third line does.
@@ -68,7 +68,7 @@ I've taken the liberty to give the `Frog` the attribute of two `eyes`, and I've 
 So you see how each class is contained in its own file, and the class and filename are the same.
 This is useful because it keeps everything that is specific to the `Frog` in one place, and everything that is specific to the `Fly` in it's own place, which can help us out in the long run by making our overall program more navigatable and readable.
 This concept is refered to as `encapsulation`, allowing these related ideas to be put together into one unit, and thereby preventing unrelated things from having access.
-![Modifiers](images/blog-01-hello-world-deconstructed/encapsulate.jpg)
+![Modifiers](/images/blog-01-hello-world-deconstructed/encapsulate.jpg)
 This image shows multiple levels of encapsulation: the powered medicine is encapsulated in the pill, and the pills are encapsulated in the pill bottle - the encapsulation helps keep the things that belong together together.
 
 ## Term 1: `public`
@@ -82,7 +82,7 @@ Besides the `public` modifier, there is also `private`, `protected` and the `pac
 This last one is the default modifier, that is to say that when you don't add any of the other modifier keywords, then the class is automatically designated as `package-private`, which is what the example `Frog` class above is.
 These access modifiers apply not only to classes, but also to methods, constructors and data members.
 
-![Modifiers](images/blog-01-hello-world-deconstructed/accessmod.png)
+![Modifiers](/images/blog-01-hello-world-deconstructed/accessmod.png)
 [credit](https://stackoverflow.com/a/215505)
 
 #### 1. `public` access modifier
@@ -139,7 +139,7 @@ as the very first instruction in the source file.
 Typically you will see these in a format that has one or more identifiers separated by periods such as `java.util.random`.
 The naming format here is trying to make sure that each name is unique, so as to avoid namespace collisions and is the same as with import naming.
 For example, if I wanted to make use of the class `List`, I would find that there are quite a few:
-![Namespace](images/blog-01-hello-world-deconstructed/namespace.png)
+![Namespace](/images/blog-01-hello-world-deconstructed/namespace.png)
 *which one do I want?* I have to specify, and this `java.util.list` naming format helps keep all of these classes and packages separate, ensuring we can make use of the desired class.
 
 When the `protected` access modifier is used, it signals that the class, method, constructors or data member is accessible both within and outside the package but through inheritance only.
@@ -281,7 +281,7 @@ The args array contains: [John, Smith]
 ```
 
 In order to pass in your own program arguments with an IDE (here shown with IntelliJ), update your `program arguments` in the "edit configurations..." window:
-![Program Arguments](images/blog-01-hello-world-deconstructed/arguments.png)
+![Program Arguments](/images/blog-01-hello-world-deconstructed/arguments.png)
 
 ## Term 10: The class `System`
 
