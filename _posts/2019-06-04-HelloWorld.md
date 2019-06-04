@@ -1,6 +1,12 @@
+---
+layout: post
+title: Deconstructing "Hello, World!" in Java
+excerpt_separator: <!--more-->
+---
+
 # Hello, World! Deconstructed
 
-Have you ever tried writing out a standalone "Hello, World!" program in Java, away from an IDE, and instead on a piece of paper or a whiteboard?
+Have you ever tried writing out a standalone "Hello, World!" program in Java, away from an IDE, and instead on a piece of paper or a whiteboard?  <!--more-->
 Go ahead and give it a go if you've never done it before.
 Go on. I dare you, I double dare you m... (you know what, I'm going to spare you the rest of the Pulp Fiction quote!)
 Writing it out by hand turns out to be quite a good bit of practice if you're new to Java.
