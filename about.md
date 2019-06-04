@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 ### Into:
+- Java
 - Python
 - Max/MSP
 - Web Design
